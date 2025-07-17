@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Farsan", cursive;
 }
 
 hr {
@@ -42,7 +43,7 @@ nav {
 }
 .nav-links {
   display: none;
-  flex-direction: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 5px;
   list-style: none;
@@ -85,7 +86,8 @@ nav {
 
 .welcomeSpan {
   color: #18f361;
-  font-size: 1rem;
+  font-family: "Markazi Text", serif;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 
@@ -394,7 +396,7 @@ nav {
   }
 
   .welcomeSpan {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
   .vimsion-text {
