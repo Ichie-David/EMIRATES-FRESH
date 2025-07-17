@@ -21,8 +21,8 @@
             <ul class="nav-links" id="navMenu">
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#vimsion">Vision & Mission</a></li>
-                <li><a href="#products">Our Products/Services</a></li>
-                <li><a href="#Teamlead">Meet Our TeamLead</a></li>
+                <li><a href="#products">Products/Services</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#Contact-Us">Contact Us</a></li>
             </ul>
         </nav>
@@ -65,7 +65,8 @@
             <div class="vimsion-text">
                 <h2>Mission</h2>
                 <p>
-                    Growing organically fresh from our farm, serving straight to your table everytime.
+                    To cultivate and deliver high quality, fresh produce while promoting sustainable practices and
+                    building strong community relationships.
                 </p>
             </div>
 
@@ -97,18 +98,75 @@
             </div>
         </section>
 
+        <section class="projects" id="projects">
+            <h2>Our Projects</h2>
+            <div class="project-cards">
+
+                <!-- Main Live Project -->
+                <div class="project-card">
+                    <img src="./asset/projects.jpg" alt="Hydroponics Demo Farm">
+                    <h3>Hydroponics Demo Farm</h3>
+                    <p class="project-desc">
+                        This is an urban agricultural initiative still under ideation awaiting proper funding. This
+                        project aims to address food insecurity, environmental degradation and youth
+                        unemployment across urban settlement and semi urban settlements. It would empower households to
+                        grow fresh produce in small spaces.
+                        <span class="more-text">
+                            Our goal for this project is to combine food production, environmental restoration and
+                            income generation in one simple concept tailored to the Nigeria urban context.
+                            The focus on women, youths and under used spaces makes the project inclusive, sustainable
+                            and adaptable across cities.
+                            This project is not just about growing food, it's about growing resilience, dignity and
+                            green cities from the ground up.
+                        </span>
+                    </p>
+                    <button class="read-more-toggle" onclick="toggleReadMore(this)">Read More</button>
+                </div>
+
+
+                <!-- Coming Soon Placeholder 1 -->
+                <div class="project-card coming-soon">
+                    <div class="coming-content">
+                        <i class="fas fa-tools"></i>
+                        <h3>Coming Soon</h3>
+                        <p>Another exciting project is underway!</p>
+                    </div>
+                </div>
+
+                <!-- Coming Soon Placeholder 2 -->
+                <div class="project-card coming-soon">
+                    <div class="coming-content">
+                        <i class="fas fa-tools"></i>
+                        <h3>Coming Soon</h3>
+                        <p>More innovations loading...</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
         <section class="bigTams" id="Teamlead">
             <h1>Meet the Team Lead</h1>
             <div class="bigTams-profile">
-                <img src="" alt="PHILEMON EMMANUEL D.">
+                <img src="./asset/profilepic.jpg" alt="PHILEMON EMMANUEL D.">
                 <h3>PHILEMON EMMANUEL D.</h3>
                 <small>Founder/Team Lead Emirate Fresh Market</small>
                 <p>
-                    Oversees the overall operation of the farm including the staffs, customers, students in trainig and
-                    other important daily activities.
+                    Philemon Emmanuel D. Is a graduate of crop and soil science from the university of Port Harcourt in
+                    2023, also trained in soilless farming, green house construction and management and hydroponics
+                    farming from soilless farm lab awowo Ogun state.
+                    Also trained and certified by East West seeds knowledge transfer, in vegetable production in 2025.
+                </p>
+                <p>
+                    He also oversees the overall operation of the farm including the staffs, customers, students in
+                    trainig and other important daily activities.
                 </p>
             </div>
         </section>
+
+        <hr>
 
         <section class="gallery-section" id="Gallery">
             <h2>Gallery</h2>
@@ -134,19 +192,31 @@
 
     </main>
 
+    <hr>
+
     <footer class="" id="Contact-Us">
         <section class=" social-media">
             <h2>Contact Us</h2>
             <div class="social-icons">
-                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:emiratefreshmarket@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/share/1B4DC5d2QA/" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com/emirate_fresh_market" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/philemon-emmanuel-1281b2257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://wa.me/2348142500097" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="tel:+2349013876400"><i class="fas fa-phone-alt"></i></a>
             </div>
         </section>
 
+        <hr>
+
         <div class="container">
-            <p>&copy; 2025 EmirateFreshMarket (Site is still under development!!)</p>
+            <p>&copy; 2025 EmirateFreshMarket <br> <span style="color: red;">(Site is
+                    still under
+                    development!!)</span>
+            </p>
         </div>
     </footer>
     <script src="script.js"></script>

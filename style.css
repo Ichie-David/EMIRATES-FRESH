@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+hr {
+  border-color: #128f39;
+}
+
 /* NAVBAR */
 
 header {
@@ -116,8 +120,8 @@ nav {
   background-position: center;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
 }
 
 .vimsion-text {
@@ -125,7 +129,7 @@ nav {
   width: 40%;
   margin: 0 auto;
   color: #fff;
-  text-align: justify;
+  text-align: center;
 }
 
 /* Services we Offer */
@@ -177,6 +181,88 @@ nav {
   color: #fff;
 }
 
+/* Projects */
+
+.projects {
+  padding: 2rem 1rem;
+  background-color: #a6a6a6;
+  text-align: center;
+}
+
+.projects h2 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  color: #19b44c;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.more-text {
+  display: none;
+}
+
+.read-more-toggle {
+  background-color: transparent;
+  color: #19b44c;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.read-more-toggle:hover {
+  color: #128f39;
+}
+
+/* Coming Soon Card */
+.project-card.coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  color: #555;
+  text-align: center;
+}
+
+.coming-soon .coming-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coming-soon i {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #999;
+}
+
 /* Team Lead */
 .bigTams {
   background-color: #a6a6a6;
@@ -192,6 +278,12 @@ nav {
   margin: 1rem 0;
   width: 100%;
   text-align: justify;
+}
+
+.bigTams-profile img {
+  width: 40%;
+  border-radius: 100%;
+  margin-bottom: 1rem;
 }
 
 /* Gallery */
@@ -258,6 +350,8 @@ nav {
 }
 
 .container {
+  background-color: #333;
+  color: #128f39;
   text-align: center;
 }
 
@@ -309,7 +403,6 @@ nav {
   }
 
   .offer {
-    padding: 2rem;
     gap: 2rem;
   }
 
@@ -325,6 +418,9 @@ nav {
   .bigTams-profile {
     width: 60%;
     margin: 0 auto;
+  }
+  .project-cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -342,8 +438,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 0 0 0 2rem;
     gap: 2rem;
+    font-size: 1.3rem;
   }
 
   .about-text {
@@ -352,10 +449,6 @@ nav {
 
   .about-img {
     width: 50%;
-  }
-
-  .about-img img {
-    height: auto;
   }
 
   .vimsion {
@@ -382,6 +475,9 @@ nav {
     height: 220px;
   }
 
+  .project-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .social-icons a {
     font-size: 2rem;
   }
