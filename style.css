@@ -173,7 +173,7 @@ nav {
 .offer-btn {
   border: 1px solid #19b44c;
   background-color: #fff;
-  padding: 5px;
+  padding: 10px;
   border-radius: 10px;
   margin-top: 2px;
 }
@@ -413,6 +413,11 @@ nav {
     width: 50%;
   }
 
+  .offer-btn {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+  }
+
   .offer-text {
     font-size: 1.5rem;
   }
@@ -421,6 +426,27 @@ nav {
     width: 60%;
     margin: 0 auto;
   }
+
+  .bigTams {
+    font-size: 1.49rem;
+  }
+
+  .gallery-section {
+    font-size: 1.5rem;
+  }
+
+  .social-media {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    font-size: 1.5rem;
+  }
+
+  .projects {
+    font-size: 1.5rem;
+  }
+
   .project-cards {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -482,5 +508,25 @@ nav {
   }
   .social-icons a {
     font-size: 2rem;
+  }
+
+  .bigTams {
+    font-size: 1.49rem;
+  }
+
+  .gallery-section {
+    font-size: 1.5rem;
+  }
+
+  .social-media {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    font-size: 1.5rem;
+  }
+
+  .projects {
+    font-size: 1.5rem;
   }
 }
